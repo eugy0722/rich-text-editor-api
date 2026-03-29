@@ -1,0 +1,36 @@
+{
+  "name": "rich-editor-api",
+  "version": "1.0.0",
+  "description": "An BackEnd Application built in Node.js with TypeScript for creating, reading, editing and deleting text document in a rich-text editor   ",
+  "main": "index.js",
+  "scripts": {
+    "start": "tsc && node dist/server.js",
+    "dev": "nodemon src/server.ts",
+    "build": "tsc",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "type": "module",
+  "keywords": [
+    "API-Restfull",
+    "Node.js",
+    "TypeScript",
+    "PRISMA",
+    "PostgreSQL",
+    "Sanitize-HTML"
+  ],
+  "author": "Yujjin",
+  "license": "MIT",
+  "dependencies": {
+    "@prisma/client": "^7.6.0",
+    "dotenv": "^17.3.1",
+    "express": "^5.2.1",
+    "prisma": "^7.6.0",
+    "sanitize-html": "^2.17.2"
+  },
+  "devDependencies": {
+    "@types/express": "^5.0.6",
+    "@types/node": "^25.5.0",
+    "nodemon": "^3.1.14",
+    "ts-node": "^10.9.2"
+  }
+}
